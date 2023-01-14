@@ -1,0 +1,32 @@
+.header {
+  background-color: #ffffff67;
+  backdrop-filter: blur(20px);
+  position: fixed;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.75rem;
+}
+
+.navbar {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+}
+
+.options {
+  width: 70vw;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.option {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.option > li {
+  display: inline;
+}
