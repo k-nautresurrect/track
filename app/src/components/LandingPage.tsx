@@ -1,11 +1,16 @@
+import { animateText } from '@/scripts/animateText';
 import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.animate}>
-        <h1 className={styles.mainHead}>
-          Learn and contribute, Spread the word
+        <h1 className={styles.mainHead} id='main-head'>
+          {animateText(
+            'Learn and Contribute, Spread the word',
+            'main-head',
+            100
+          )}
         </h1>
       </div>
       <div className={styles.description}>
